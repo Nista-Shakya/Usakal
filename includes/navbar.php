@@ -1,7 +1,7 @@
 <!-- header design -->
 <header id="header">
   
-  <nav class="navbar navbar-expand-lg navigation-wrap">
+  <nav id="sticky" class="navbar navbar-expand-lg navigation-wrap">
     <div class="container">
       <a class="navbar-brand" href="index.php"><img src="image/ushakal.png" width="70" height="60"></a>
         
@@ -18,7 +18,7 @@
          <div class="search-container">  
          <form action="search.php">
          <input type="search" placeholder="Find products" name="search">
-         <button type="submit" name="submit-search"><i class="fa fa-search" style="margin-left: 3px;"></i></button>
+         <button type="submit" name="submit-search" class="button"><i class="fa fa-search" style="margin-left: 3px;"></i></button>
           </div>
          </form>
            <li class="nav-item">

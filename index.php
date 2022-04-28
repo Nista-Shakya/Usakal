@@ -58,11 +58,47 @@
 </div>
 </section>
 
+<br>
+<h3 style="text-align: center;">New Products</h3>
 
+<br>
+<br>
+<section id="products">
+       <div class="products-section wrapper" style="padding-top: 10px;">
+       <div class="container">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="col">
+    <div class="card h-100">
+    <img src="image/carousel/sweater.png" class="card-img-top" alt="..." style="width: 100%; height: 300px;">
+      <div class="card-body">
+      <h3 class="card-title">Title</h3>
+        <h3 class="card-title"></h3>
+        <ul class="fdul" style="list-style-type: none;">
+          <li class="fd">
+            <form action="" method="POST" enctype="multipart/form-data">
+        <a href=""><button class="main-btn mt-4" name="myrecipe" type="button">Read Blog</button></a>
+      </form>
+    </li>
+      </div>
+     </ul>
+    </div>
+  </div>
+</div>
+
+</div>
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 
 <script src="js/main.js"></script>
+
+<br>
+<br>
+</div>
+
 </body>
 </html>
+
+<?php
+  include 'includes/footer.php';
+?>

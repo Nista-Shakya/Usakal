@@ -265,6 +265,19 @@ p {
     background-color:var(--secondry-color) !important;
 }
 
+/*sticky navbar*/
+#sticky {
+  background: #ffffff;
+  position: fixed; 
+  top: 0;
+  height: 70px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 /* carousel */
 .carousel-item{
   height:500px;
@@ -294,5 +307,36 @@ p {
 .carousel-caption .btn{
   text-align: left;
 }
+.search-container .button {
+border: none;
+background-color: #494949;
+color:#f7277a;
+padding:3px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
 
 
+/*
+ recipes section Design
+==========================================
+*/
+.products-section{
+  padding: 88px 10px; 
+
+}
+
+.products-section .card{
+ box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+ overflow: hidden;
+ border-radius: 15px;
+}
+
+.products-section .card,
+.products-section .card-img{
+ border-radius: 0.625rem;
+}
